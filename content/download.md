@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Downloads
+title: Rya Downloads
 description: Project Downloads page
 group: nav-right
 ---
@@ -26,10 +26,11 @@ limitations under the License.
 
 ## {{ site.data.project.name }} Downloads
 
-There are no official Apache releases for {{ site.data.project.short_name }} yet. You can download and build the latest code from [GitHub]({{ site.data.project.source_repository_mirror }}).
+There are no official Apache releases for {{ site.data.project.short_name }} yet. 
 
-If you are interested in a quick way to download and deploy Rya, you can try the [{{ site.data.project.short_name}} vagrant]({{ site.data.project.source_repository_mirror}}/tree/develop/extras/vagrantExample/src/main/vagrant) script to create a VM with Accumulo and Rya on it. 
+First Apache Incubator release coming soon!!
 
+If you are interested in helping out, please join our developers list [{{site.data.project.dev_list}}](mailto:{{site.data.project.dev_list_subscribe}}?subject-send this email to subscribe).
 
 {% comment %}
 
