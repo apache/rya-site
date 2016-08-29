@@ -26,7 +26,7 @@ limitations under the License.
 
 ## {{ site.data.project.name }} Downloads
 
-There are no official Apache releases for {{ site.data.project.short_name }} yet. 
+There are no official Apache releases for {{ site.data.project.short_name }} yet.
 
 First Apache Incubator release coming soon!!
 
