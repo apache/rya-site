@@ -30,7 +30,7 @@ There are no official Apache releases for {{ site.data.project.short_name }} yet
 
 First Apache Incubator release coming soon!!
 
-If you are interested in helping out, please join our developers list [{{site.data.project.dev_list}}](mailto:{{site.data.project.dev_list_subscribe}}?subject-send this email to subscribe).
+If you are interested in helping out, please join our developers list [{{site.data.project.dev_list}}](mailto:{{site.data.project.dev_list_subscribe}}?subject=subscribe to Rya dev list) by sending an email to [{{site.data.project.dev_list_subscribe}}](mailto:{{site.data.project.dev_list_subscribe}}?subject=subscribe to Rya dev list).
 
 {% comment %}
 
