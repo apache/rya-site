@@ -20,7 +20,7 @@ short_name: Rya
 unix_name: rya
 incubator_name: incubator-rya
 incubator_slash_name: incubator/rya
-description: Apache Rya (incubating) is a scalable RDF triple store built on top of a columnar index store (Accumulo).
+description: Apache Rya (incubating) is a scalable RDF triple store built on top of a columnar index store (Apache Accumulo®).
 
 download: download
 
