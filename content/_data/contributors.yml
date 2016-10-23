@@ -19,7 +19,7 @@
 #
 - name: Jennifer Brown
   apacheId: jbrown
-  githubId: 
+#  githubId: 
   role: Committer
   org: Parsons
 
@@ -31,7 +31,7 @@
 
 - name: Kevin Chilton
   apacheId:
-  githubId:
+#  githubId:
   role: Contributor
 
 - name: Adina Crainiceanu
@@ -49,13 +49,13 @@
 
 - name: Adam Fuchs
   apacheId: afuchs
-  githubId: 
+#  githubId: 
   role: Champion
   org:
 
 - name: Craig Hahn
   apacheId:
-  githubId:
+#  githubId:
   org:
   role: Contributor
 
@@ -109,13 +109,13 @@
 
 - name: Amila Wijayarathna
   apacheId: 
-  githubId: 
+#  githubId: 
   org:
   role: Contributor
 
 - name: Edward J. Yoon
   apacheId: edwardyoon
-  githubId: 
+#  githubId: 
   org: 
   role: Mentor
 

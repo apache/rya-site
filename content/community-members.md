@@ -32,11 +32,12 @@ limitations under the License.
 {% if site.data.contributors %}
 <table class="table table-hover">
     <tr>
-        <th><b></b></th><th><b>Full Name</b></th><th><b>Apache ID</b></th><th><b>GitHub</b><th><b>Role</b></th><th><b>Affiliation</b></th>
+        <th><b></b></th> <th><b>Full Name</b></th> <th><b>Apache ID</b></th> <th><b>GitHub</b></th> <th><b>Role</b></th> <th><b>Affiliation</b></th>
     </tr>
+
     {% for member in site.data.contributors %}
         <tr>
-        <td><a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a></td>
+        <td>{% if member.githubId %}<a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a>{% endif %}</td>
         <td>{{member.name}}</td>
         <td>{{member.apacheId}}</td>
         <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
@@ -45,5 +46,6 @@ limitations under the License.
         </tr>
     {% endfor %}
 </table>
+
 {% endif %}
 
