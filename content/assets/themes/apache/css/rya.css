@@ -1,0 +1,20 @@
+/* Rya specific styles */
+
+body table {
+    width : 100% !important;
+    border : 1px solid gray;
+}
+
+body table tr td {
+    border : 1px solid gray;
+    padding : 5px 5px 5px 5px;
+}
+
+body table tr th {
+    border : 1px solid gray;
+    padding : 5px 5px 5px 5px;
+    background-color: #B0C4DE;
+}
+
+
+
