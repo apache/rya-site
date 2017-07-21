@@ -20,6 +20,7 @@
     <link href="/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/assets/themes/apache/css/style.css?body=1" rel="stylesheet" type="text/css">
     <link href="/assets/themes/apache/css/syntax.css" rel="stylesheet"  type="text/css" media="screen" />
+    <link href="/assets/themes/apache/css/rya.css" rel="stylesheet"  type="text/css" media="screen" />
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -90,11 +91,48 @@
 
 <h2 id="apache-rya-incubating-downloads">Apache Rya (incubating) Downloads</h2>
 
-<p>There are no official Apache releases for Rya yet.</p>
+<p>If you are interested in helping out, please join our developers list <a href="mailto:dev-subscribe@rya.incubator.apache.org?subject=subscribe to Rya dev list">dev@rya.incubator.apache.org</a> by sending an email to <a href="mailto:dev-subscribe@rya.incubator.apache.org?subject=subscribe to Rya dev list">dev-subscribe@rya.incubator.apache.org</a>.</p>
 
-<p>First Apache Incubator release coming soon!!</p>
+<p>Apache Rya (incubating) is released as a source artifact, and <a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22">also through Maven</a>.</p>
 
-<p>If you are interested in helping out, please join our developers list <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#100;&#101;&#118;&#045;&#115;&#117;&#098;&#115;&#099;&#114;&#105;&#098;&#101;&#064;&#114;&#121;&#097;&#046;&#105;&#110;&#099;&#117;&#098;&#097;&#116;&#111;&#114;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;&#063;&#115;&#117;&#098;&#106;&#101;&#099;&#116;&#061;&#115;&#117;&#098;&#115;&#099;&#114;&#105;&#098;&#101;&#032;&#116;&#111;&#032;&#082;&#121;&#097;&#032;&#100;&#101;&#118;&#032;&#108;&#105;&#115;&#116;">dev@rya.incubator.apache.org</a> by sending an email to <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#100;&#101;&#118;&#045;&#115;&#117;&#098;&#115;&#099;&#114;&#105;&#098;&#101;&#064;&#114;&#121;&#097;&#046;&#105;&#110;&#099;&#117;&#098;&#097;&#116;&#111;&#114;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;&#063;&#115;&#117;&#098;&#106;&#101;&#099;&#116;&#061;&#115;&#117;&#098;&#115;&#099;&#114;&#105;&#098;&#101;&#032;&#116;&#111;&#032;&#082;&#121;&#097;&#032;&#100;&#101;&#118;&#032;&#108;&#105;&#115;&#116;">dev-subscribe@rya.incubator.apache.org</a>.</p>
+<h3 id="source-releases">Source releases</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Release</th>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Download</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="/news/2016/10/28/release-3.2.10/">3.2.10</a></td>
+      <td style="text-align: left">28 Oct 2016</td>
+      <td style="text-align: left"><a href="http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip">zip</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.asc">pgp</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.md5">md5</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.sha1">sha1</a></td>
+      <td style="text-align: left"><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12334209&amp;styleName=Html&amp;projectId=12319020">Release notes</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+Download a source distribution in <!-- either *tar* or --> <em>zip</em> format,
+and <a href="http://www.apache.org/dyn/closer.cgi#verify">verify</a>
+using the corresponding <em>pgp</em> signature (using the committer file in <a href="http://www.apache.org/dist/incubator/rya/KEYS">KEYS</a>).
+If you cannot do that, the <em>md5</em> or <em>sha1</em> hash file may be used to check that the
+download has completed okay.</p>
+
+<p>For fast downloads, current source distributions are hosted on mirror servers;</p>
+
+<!-- older source distributions are in the
+[archive](http://archive.apache.org/dist/incubator/rya/).
+-->
+<p>If a download from a mirror fails, retry, and the second download will likely
+succeed.</p>
+
+<p>For security, hash and signature files are always hosted at
+<a href="https://www.apache.org/dist/incubator/rya">Apache</a>.</p>
 
 
   </div>
@@ -103,7 +141,7 @@
 
       <hr>
       <footer>
-        <!-- <p>&copy; 2016 </p>-->
+        <!-- <p>&copy; 2017 </p>-->
         <footer class="site-footer">
     <div class="wrapper">
         <div class="footer-col-wrapper">
@@ -124,7 +162,7 @@
                 </div>
                 
                 <div>
-                    Copyright &copy; 2016 <a href="http://www.apache.org">The Apache Software Foundation</a>.
+                    Copyright &copy; 2017 <a href="http://www.apache.org">The Apache Software Foundation</a>.
                     Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version
                     2.0</a>.
                     <br>
