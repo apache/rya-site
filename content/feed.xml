@@ -3,11 +3,58 @@
   <channel>
     <title></title>
     <description></description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Oct 2016 09:36:43 -0400</pubDate>
-    <lastBuildDate>Sun, 23 Oct 2016 09:36:43 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Jul 2017 11:20:02 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Jul 2017 11:20:02 -0400</lastBuildDate>
+    <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>First Release</title>
+        <description>
+&lt;p&gt;This is Rya’s first release, version 3.2.10.  It is available as a source code download:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/&quot;&gt;Source download from Apache&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/releases/tag/rel%2Frya-incubating-3.2.10&quot;&gt;Source download from Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/commit/66d8b7f&quot;&gt;Release Tag in Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12334209&amp;amp;styleName=Html&amp;amp;projectId=12319020&quot;&gt;Release notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22&quot;&gt;Central repository for Maven and other dependency managers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
+using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
+&lt;a href=&quot;http://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; hash file may be used to check that the
+download has completed OK.&lt;/p&gt;
+
+&lt;p&gt;For fast downloads, current source distributions are hosted on mirror servers;
+older source distributions are in the
+&lt;a href=&quot;http://archive.apache.org/dist/incubator/rya/&quot;&gt;archive&lt;/a&gt;.
+If a download from a mirror fails, retry, and the second download will likely
+succeed.&lt;/p&gt;
+
+&lt;p&gt;For security, hash and signature files are always hosted at
+&lt;a href=&quot;https://www.apache.org/dist&quot;&gt;Apache&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next steps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/66d8b7f/extras/rya.manual/src/site/markdown/build-source.md&quot;&gt;Building from Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/66d8b7f/extras/rya.manual/src/site/markdown/quickstart.md&quot;&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/66d8b7f/extras/rya.manual/src/site/markdown/sm-firststeps.md&quot;&gt;Typical First Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/66d8b7f/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 28 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000//news/2016/10/28/release-3.2.10/</link>
+        <guid isPermaLink="true">http://localhost:4000//news/2016/10/28/release-3.2.10/</guid>
+        
+        <category>v3.2.10</category>
+        
+        
+        <category>release</category>
+        
+      </item>
     
   </channel>
 </rss>
