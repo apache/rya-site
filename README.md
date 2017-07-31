@@ -12,7 +12,7 @@ To make changes to the website:
 1. Git clone git://git.apache.org/incubator-rya-site.git branch master
 2. Created a new branch.        
 
-    git checkout -b your_new_branch_name_here
+    ``git checkout -b your_new_branch_name_here``
 
 3. Modify the markdown as needed using a text editor.
 4. New releases go in folder _posts along with other news.
@@ -23,8 +23,9 @@ To make changes to the website:
 
 8. Run this command in the content/ folder to auto-compile and web serve on port 4000:
 
-    cd content/
-    bundle exec jekyll serve
+    ``cd content/``
+    
+    ``bundle exec jekyll serve``
 
 9. Now just iteratevly use your editor and web browser to edit and test changes.
 10. When you are done making changes:
@@ -34,11 +35,11 @@ To make changes to the website:
 14. Now for the deployable HTML that you moved above:
 15. In the same git folder, 
 
-    git checkout --force origin/asf-site 
+    ``git checkout --force origin/asf-site 
 
     git checkout -b another_new_branch_name_here
 
-    rm -r content/*
+    rm -r content/*``
 
 Note: --force removes any stray files left over.
 
@@ -61,25 +62,32 @@ Note: the recursive remove of all the content is necessary to discover files del
 3. Start with your branch of project "incubator-rya-site" as pushed to your remote, that is based on the asf-site branch.
 4. Create and checkout a new branch named "gh-pages".  This will not be used in a pull request.
 
-    git checkout -b gh-pages
+    ``git checkout -b gh-pages``
     
 5. Move the contents of the "content" folder to the root of the project.
 6. Modify each HTML page prepending to all references (href= and src=) to the site with "/incubator-rya-site" .  Ignore references beginning http.
+
 For example:
+
     Before:
-        <link href="/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">
+    
+        ``<link href="/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">``
+        
     After:
-        <link href="/incubator-rya-site/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">
+    
+        ``<link href="/incubator-rya-site/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">``
 
 
 This command should do the replacement:
-    find . -name \*.html -exec sed -ri 's/=\"\//=\"\/incubator-rya-site\//g' {} \;
+
+    ``find . -name \*.html -exec sed -ri 's/=\"\//=\"\/incubator-rya-site\//g' {} \;``
 
 
 7. Commit changes and push to your public github project named incubator-rya-site.
 
-    git commit -a -m "New stuff"
-    git push  git push --set-upstream yourGitHub gh-pages
+    ``git commit -a -m "New stuff"``
+    
+    ``git push  git push --set-upstream yourGitHub gh-pages``
     
 8. Login to your github account and to the project incubator-rya-site forked from apache/incubator-rya-site, and click on the Settings tab.  Scroll down to GitHub Pages  and choose source=gh-pages branch.  Save.
     
