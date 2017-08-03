@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Jul 2017 14:17:04 -0400</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 14:17:04 -0400</lastBuildDate>
+    <pubDate>Thu, 03 Aug 2017 16:42:16 -0400</pubDate>
+    <lastBuildDate>Thu, 03 Aug 2017 16:42:16 -0400</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -38,10 +38,10 @@ succeed.&lt;/p&gt;
 
 &lt;p&gt;Next steps:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob//extras/rya.manual/src/site/markdown/build-source.md&quot;&gt;Building from Source&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob//extras/rya.manual/src/site/markdown/quickstart.md&quot;&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob//extras/rya.manual/src/site/markdown/sm-firststeps.md&quot;&gt;Typical First Steps&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob//extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.10/extras/rya.manual/src/site/markdown/build-source.md&quot;&gt;Building from Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.10/extras/rya.manual/src/site/markdown/quickstart.md&quot;&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.10/extras/rya.manual/src/site/markdown/sm-firststeps.md&quot;&gt;Typical First Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.10/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 28 Oct 2016 00:00:00 -0400</pubDate>
