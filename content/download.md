@@ -54,8 +54,10 @@ Release          | Date       | Download | Notes
 {% endcomment %} [pgp]( {{ d }}/{{ post.filename }}.zip.asc ){% comment %}
 {% endcomment %} [md5]( {{ d }}/{{ post.filename }}.zip.md5 ){% comment %}
 {% endcomment %} [sha1]({{ d }}/{{ post.filename }}.zip.sha1){% comment %}
+{% endcomment %}{% if post.version != "3.2.10" %} [sha512]({{ d }}/{{ post.filename }}.zip.sha512){% comment %}
 {% endcomment %}{% endif %}{% comment %}
-{% endcomment %} | [Release notes]({{ post.releaseNotes }})
+{% endcomment %}{% endif %}{% comment %}
+{% endcomment %} | [Release notes]({{ post.releaseNotes | liquify }})
 {% endfor %}
 <br>
 Download a source distribution in <!-- either *tar* or --> *zip* format,
