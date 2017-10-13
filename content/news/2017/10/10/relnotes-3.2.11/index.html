@@ -4,8 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Rya Downloads</title>
-    <meta name="description" content="Project Downloads page">
+    <title>Release Notes v3.2.11</title>
+    <meta name="description" content="Details of what changed in v3.2.11 of Rya (Incubating)">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -78,69 +78,105 @@
     <div class="container">
       
 
-<!--<div class="hero-unit Rya Downloads">
-  <h1></h1>
+<div class="page-header">
+  <h1>Release Notes v3.2.11 </h1>
 </div>
--->
 
-<div class="row">
-  <div class="col-md-12">
-    <!--
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>10 October 2017</span>
+    </div>
+    <div class="content">
+      <p>Release Notes v3.2.11</p>
 
--->
+<p>See the full <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;version=12341279">list of issues</a> resolved in this release.</p>
 
-<h2 id="apache-rya-incubating-downloads">Apache Rya (incubating) Downloads</h2>
+<p>Here are the release highlights:</p>
 
-<p>If you are interested in helping out, please join our developers list <a href="mailto:dev-subscribe@rya.incubator.apache.org?subject=subscribe to Rya dev list">dev@rya.incubator.apache.org</a> by sending an email to <a href="mailto:dev-subscribe@rya.incubator.apache.org?subject=subscribe to Rya dev list">dev-subscribe@rya.incubator.apache.org</a>.</p>
-
-<p>Apache Rya (incubating) is released as a source artifact, and <a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22">also through Maven</a>.</p>
-
-<h3 id="source-releases">Source releases</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Release</th>
-      <th style="text-align: left">Date</th>
-      <th style="text-align: left">Download</th>
-      <th style="text-align: left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><a href="/news/2017/10/10/release-3.2.11/">3.2.11</a></td>
-      <td style="text-align: left">10 Oct 2017</td>
-      <td style="text-align: left"><a href="http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip">zip</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.asc">pgp</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.md5">md5</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.sha1">sha1</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.sha512">sha512</a></td>
-      <td style="text-align: left"><a href="/news/2017/10/10/relnotes-3.2.11/">Release notes</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="/news/2016/10/28/release-3.2.10/">3.2.10</a></td>
-      <td style="text-align: left">28 Oct 2016</td>
-      <td style="text-align: left"><a href="http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip">zip</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.asc">pgp</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.md5">md5</a> <a href="https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.10/rya-project-3.2.10-incubating-source-release.zip.sha1">sha1</a></td>
-      <td style="text-align: left"><a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12334209&amp;styleName=Html&amp;projectId=12319020">Release notes</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><br />
-Download a source distribution in <!-- either *tar* or --> <em>zip</em> format,
-and <a href="http://www.apache.org/dyn/closer.cgi#verify">verify</a>
-using the corresponding <em>pgp</em> signature (using the committer file in <a href="http://www.apache.org/dist/incubator/rya/KEYS">KEYS</a>).
-If you cannot do that, the <em>md5</em> or <em>sha1</em> hash file may be used to check that the
-download has completed okay.</p>
-
-<p>For fast downloads, current source distributions are hosted on mirror servers;</p>
-
-<!-- older source distributions are in the
-[archive](http://archive.apache.org/dist/incubator/rya/).
--->
-<p>If a download from a mirror fails, retry, and the second download will likely
-succeed.</p>
-
-<p>For security, hash and signature files are always hosted at
-<a href="https://www.apache.org/dist/incubator/rya">Apache</a>.</p>
+<ul>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-109">RYA-109</a> - Spark support</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-121">RYA-121</a> - Store contextual metadata for individual triples</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-231">RYA-231</a> - Revived Giraph Support</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-232">RYA-232</a> - Created a Mongo profile for deploying the rest service</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-241">RYA-241</a> - Geowave support</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-290">RYA-290</a> - Expand query inference to support additional RDFS/OWL terms: owl:hasValue, owl:intersectionOf, owl:unionOf, owl:someValuesFrom, owl:allValuesFrom, owl:hasSelf, owl:equivalentClass, rdfs:domain, rdfs:range, owl:oneOf, owl:ReflexiveProperty</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-337">RYA-337</a> - Enabled query batching for MongoDB DAO. Previously, the MongoDB DAO sent one Statement Pattern query at a time to Mongo.  Now, the DAO batches Statement Pattern queries and performs a client side join (like the Accumulo DAO).</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-323">RYA-323</a> - Enabled Multi Var Geo Functions. Previously, all Rya GeoSPARQL functions required that at least one parameter was a constant (eg “geof:sfWithin(?wkt, “POLYGON(( … )))” ).  now, we can solve filters that have no constants (eg “geof:near(?wkt2, ?wkt1))”)</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-185">RYA-185</a> - Add load statements from local file command to Rya shell</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-219">RYA-219</a> - Add support for exporting to Kafka for the rya trigger service</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-246">RYA-246</a> - Separate Fluo query result exporters, Rya PCJ intermingled kafka triggers</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-257">RYA-257</a> - Add Geospacial and Temporal combined indexing support for Mongo backed Rya</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-83">RYA-83</a> - The match everything query is now supported: select * where { s? p? o? }</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-339">RYA-339</a> - Fluo PCJ Improvements</p>
+  </li>
+</ul>
 
 
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="#releasenotes-ref">
+    		releasenotes <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/news/2017/10/10/release-3.2.11/" title="Release 3.2.11">&larr; Previous</a></li>
+      
+        <li><a href="">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+    
   </div>
 </div>
 
