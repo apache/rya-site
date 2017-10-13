@@ -27,5 +27,8 @@ baseurl: /
 # baseurl: /Users/cs/adina/ryawebsite/target/
 
 url: http://rya.apache.org
+
+gems:
+  - jekyll-liquify
 # End _config.yml
 
