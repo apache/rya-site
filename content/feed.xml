@@ -5,9 +5,95 @@
     <description></description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Oct 2017 14:32:42 -0400</pubDate>
-    <lastBuildDate>Fri, 13 Oct 2017 14:32:42 -0400</lastBuildDate>
+    <pubDate>Mon, 05 Mar 2018 22:07:21 -0500</pubDate>
+    <lastBuildDate>Mon, 05 Mar 2018 22:07:21 -0500</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>Release Notes v3.2.12</title>
+        <description>&lt;p&gt;Release Notes v3.2.12&lt;/p&gt;
+
+&lt;p&gt;See the full &lt;a href=&quot;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;amp;version=12341570&quot;&gt;list of issues&lt;/a&gt; resolved in this release.&lt;/p&gt;
+
+&lt;p&gt;Here are the release highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-342&quot;&gt;RYA-342&lt;/a&gt; - Improved documentation for deploying the RYA PCJ Updater&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-368&quot;&gt;RYA-368&lt;/a&gt; - Created a Rya Shell for MongoDB&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-440&quot;&gt;RYA-440&lt;/a&gt; - Integrated RyaStreams with the Rya Shell&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-303&quot;&gt;RYA-303&lt;/a&gt; - Added PCJ indexer support for MongoDB backend&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-417&quot;&gt;RYA-417&lt;/a&gt; - Implemented a forward-chaining rules engine that runs as a batch process, operates on user-defined SPIN rules, and inserts derived information back in Rya&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-416&quot;&gt;RYA-416&lt;/a&gt; - Added the ability to use the MongoDB aggregation pipeline to evaluate simple SPARQL expressions for MongoDB backend&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-377&quot;&gt;RYA-377&lt;/a&gt; - Implemented single node Kafka streams incremental SPARQL processor&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 04 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//news/2018/03/04/relnotes-3.2.12/</link>
+        <guid isPermaLink="true">http://localhost:4000//news/2018/03/04/relnotes-3.2.12/</guid>
+        
+        
+        <category>releasenotes</category>
+        
+      </item>
+    
+      <item>
+        <title>Release 3.2.12</title>
+        <description>
+&lt;p&gt;This is Rya’s third Apache release, version 3.2.12.  It is available as a source code download:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-3.2.12/rya-project-3.2.12-incubating-source-release.zip&quot;&gt;Source download from Apache&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Verify:  &lt;a href=&quot;https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.12/rya-project-3.2.12-incubating-source-release.zip.asc&quot;&gt;pgp&lt;/a&gt; &lt;a href=&quot;https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.12/rya-project-3.2.12-incubating-source-release.zip.md5&quot;&gt;md5&lt;/a&gt; &lt;a href=&quot;https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.12/rya-project-3.2.12-incubating-source-release.zip.sha1&quot;&gt;sha1&lt;/a&gt; &lt;a href=&quot;https://dist.apache.org/repos/dist/release/incubator/rya/rya-incubating-3.2.12/rya-project-3.2.12-incubating-source-release.zip.sha512&quot;&gt;sha512&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/news/2018/03/04/relnotes-3.2.12/&quot;&gt;Release notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22&quot;&gt;Central repository for Maven and other dependency managers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
+using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
+&lt;a href=&quot;http://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; or &lt;em&gt;sha1&lt;/em&gt; hash file may be used to check that the
+download has completed okay.&lt;/p&gt;
+
+&lt;p&gt;For fast downloads, current source distributions are hosted on mirror servers;
+older source distributions are in the
+&lt;a href=&quot;http://archive.apache.org/dist/incubator/rya/&quot;&gt;archive&lt;/a&gt;.
+If a download from a mirror fails, retry, and the second download will likely
+succeed.&lt;/p&gt;
+
+&lt;p&gt;For security, hash and signature files are always hosted at
+&lt;a href=&quot;https://www.apache.org/dist/incubator/rya&quot;&gt;Apache&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next steps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.12/extras/rya.manual/src/site/markdown/build-source.md&quot;&gt;Building from Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.12/extras/rya.manual/src/site/markdown/quickstart.md&quot;&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.12/extras/rya.manual/src/site/markdown/sm-firststeps.md&quot;&gt;Typical First Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.12/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 04 Mar 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000//news/2018/03/04/release-3.2.12/</link>
+        <guid isPermaLink="true">http://localhost:4000//news/2018/03/04/release-3.2.12/</guid>
+        
+        
+        <category>release</category>
+        
+      </item>
     
       <item>
         <title>Release Notes v3.2.11</title>
