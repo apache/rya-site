@@ -40,6 +40,12 @@
   role: Committer
   org: US Naval Academy
 
+- name: Jeff Dash
+  apacheId:
+  githubId: jdash
+  org:
+  role: Contributor
+
 - name: Josh Elser
   apacheId: elserj
   githubId: joshelser
@@ -59,17 +65,23 @@
   org:
   role: Contributor
 
-- name: David Lotts
+- name: Jesse Hatfield
   apacheId:
-  githubId: dlotts
-  org: Parsons
-  role: Contributor
-
-- name: Caleb Meier
-  apacheId:
-  githubId: meiercaleb
+  githubId: jessehatfield
   org:
   role: Contributor
+
+- name: David Lotts
+  apacheId: dlotts
+  githubId: dlotts
+  org: Parsons
+  role: Commiter
+
+- name: Caleb Meier
+  apacheId: caleb
+  githubId: meiercaleb
+  org: Parsons
+  role: Commiter
 
 - name: Aaron Mihalik
   apacheId: mihalik
@@ -95,6 +107,12 @@
   org:
   role: Mentor
 
+- name: Andrew Smith
+  apacheId:
+  githubId: isper3at
+  org:
+  role: Contributor
+
 - name: Puja Valiyil
   apacheId: pujav65
   githubId: pujav65
@@ -113,9 +131,21 @@
   org:
   role: Committer
 
+- name: Eric White
+  apacheId:
+  githubId: ejwhite922
+  org:
+  role: Contributor
+
 - name: Amila Wijayarathna
   apacheId: 
 #  githubId: 
+  org:
+  role: Contributor
+
+- name: Jonathan Wonders
+  apacheId:
+  githubId: jwonders
   org:
   role: Contributor
 
