@@ -42,10 +42,10 @@ Release          | Date       | Download | Notes
 {% endcomment %}{% endif %}{% comment %}
 {% endcomment %}{% if forloop.index0 < 2 %}{% comment %}
 {% endcomment %}{% capture p %}http://www.apache.org/dyn/closer.lua/{{ site.data.project.incubator_slash_name }}/{{ v }}{% endcapture %}{% comment %}
-{% endcomment %}{% capture d %}https://dist.apache.org/repos/dist/release/{{ site.data.project.incubator_slash_name }}/{{ v }}{% endcapture %}{% comment %}
+{% endcomment %}{% capture d %}https://www.apache.org/dist/{{ site.data.project.incubator_slash_name }}/{{ v }}{% endcapture %}{% comment %}
 {% endcomment %}{% else %}{% comment %}
 {% endcomment %}{% capture p %}http://archive.apache.org/dist/incubator/{{ site.data.project.unix_name }}/{{ v }}{% endcapture %}{% comment %}
-{% endcomment %}{% assign d = "https://archive.apache.org/dist/incubator" %}{% comment %}
+{% endcomment %}{% capture d %}https://archive.apache.org/dist/incubator/{{ site.data.project.unix_name}}/{{ v }}{% endcapture %}{% comment %}
 {% endcomment %}{% endif %}{% comment %}
 {% endcomment %} <a href="{{ post.url }}">{{ post.version }}</a>{% comment %}
 {% endcomment %} | {{ post.date | date_to_string }}{% comment %}
@@ -62,7 +62,7 @@ Release          | Date       | Download | Notes
 <br>
 Download a source distribution in <!-- either *tar* or --> *zip* format,
 and [verify](http://www.apache.org/dyn/closer.cgi#verify)
-using the corresponding *pgp* signature (using the committer file in [KEYS](http://www.apache.org/dist/{{ site.data.project.incubator_slash_name }}/KEYS)).
+using the corresponding *pgp* signature (using the committer file in [KEYS](https://www.apache.org/dist/{{ site.data.project.incubator_slash_name }}/KEYS)).
 If you cannot do that, the *md5* or *sha1* hash file may be used to check that the
 download has completed okay.
 
