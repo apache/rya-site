@@ -40,7 +40,7 @@ Release          | Date       | Download | Notes
 {% endcomment %}{% else %}{% comment %}
 {% endcomment %}{% capture v %}apache-{{ site.data.project.unix_name }}-{{ post.version }}{% endcapture %}{% comment %}
 {% endcomment %}{% endif %}{% comment %}
-{% endcomment %}{% if forloop.index0 < 2 %}{% comment %}
+{% endcomment %}{% if forloop.index0 < 1 %}{% comment %}
 {% endcomment %}{% capture p %}http://www.apache.org/dyn/closer.lua/{{ site.data.project.incubator_slash_name }}/{{ v }}{% endcapture %}{% comment %}
 {% endcomment %}{% capture d %}https://www.apache.org/dist/{{ site.data.project.incubator_slash_name }}/{{ v }}{% endcapture %}{% comment %}
 {% endcomment %}{% else %}{% comment %}
