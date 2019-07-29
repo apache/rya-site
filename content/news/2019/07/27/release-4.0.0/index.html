@@ -4,8 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Release Notes v3.2.12</title>
-    <meta name="description" content="Details of what changed in v3.2.12 of Rya (Incubating)">
+    <title>Release 4.0.0</title>
+    <meta name="description" content="details of the forth release of Rya (Incubating)">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -79,45 +79,47 @@
       
 
 <div class="page-header">
-  <h1>Release Notes v3.2.12 </h1>
+  <h1>Release 4.0.0 </h1>
 </div>
 
 <div class="row-fluid post-full">
   <div class="span12">
     <div class="date">
-      <span>04 March 2018</span>
+      <span>27 July 2019</span>
     </div>
     <div class="content">
-      <p>Release Notes v3.2.12</p>
-
-<p>See the full <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;version=12341570">list of issues</a> resolved in this release.</p>
-
-<p>Here are the release highlights:</p>
+      
+<p>This is Rya’s third Apache release, version 4.0.0.  It is available as a source code download:</p>
 
 <ul>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-342">RYA-342</a> - Improved documentation for deploying the RYA PCJ Updater</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-368">RYA-368</a> - Created a Rya Shell for MongoDB</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-440">RYA-440</a> - Integrated RyaStreams with the Rya Shell</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-303">RYA-303</a> - Added PCJ indexer support for MongoDB backend</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-417">RYA-417</a> - Implemented a forward-chaining rules engine that runs as a batch process, operates on user-defined SPIN rules, and inserts derived information back in Rya</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-416">RYA-416</a> - Added the ability to use the MongoDB aggregation pipeline to evaluate simple SPARQL expressions for MongoDB backend</p>
-  </li>
-  <li>
-    <p><a href="https://issues.apache.org/jira/browse/RYA-377">RYA-377</a> - Implemented single node Kafka streams incremental SPARQL processor</p>
-  </li>
+  <li><a href="http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip">Source download from Apache</a></li>
+  <li>Verify:  <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.asc">pgp</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.md5">md5</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.sha1">sha1</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.sha512">sha512</a></li>
+  <li><a href="/news/2019/07/27/relnotes-4.0.0/">Release notes</a></li>
+  <li><a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22">Central repository for Maven and other dependency managers</a></li>
 </ul>
 
+<p><a href="http://www.apache.org/dyn/closer.cgi#verify">Verify</a>
+using the corresponding <em>pgp</em> signature (using the committer file in
+<a href="https://www.apache.org/dist/incubator/rya/KEYS">KEYS</a>).
+If you cannot do that, the <em>md5</em> or <em>sha1</em> hash file may be used to check that the
+download has completed okay.</p>
+
+<p>For fast downloads, current source distributions are hosted on mirror servers;
+older source distributions are in the
+<a href="http://archive.apache.org/dist/incubator/rya/">archive</a>.
+If a download from a mirror fails, retry, and the second download will likely
+succeed.</p>
+
+<p>For security, hash and signature files are always hosted at
+<a href="https://www.apache.org/dist/incubator/rya">Apache</a>.</p>
+
+<p>Next steps:</p>
+<ul>
+  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/build-source.md">Building from Source</a></li>
+  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/quickstart.md">Quick Start</a></li>
+  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/sm-firststeps.md">Typical First Steps</a></li>
+  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/index.md">Manual – includes documents above</a></li>
+</ul>
 
     </div>
 
@@ -130,8 +132,8 @@
 
   
      
-    	<li><a href="#releasenotes-ref">
-    		releasenotes <span>3</span>
+    	<li><a href="#release-ref">
+    		release <span>4</span>
     	</a></li>
     
   
@@ -146,11 +148,11 @@
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/news/2018/03/04/release-3.2.12/" title="Release 3.2.12">&larr; Previous</a></li>
+        <li class="prev"><a href="/news/2018/03/04/relnotes-3.2.12/" title="Release Notes v3.2.12">&larr; Previous</a></li>
       
         <li><a href="">Archive</a></li>
       
-        <li class="next"><a href="/news/2019/07/27/release-4.0.0/" title="Release 4.0.0">Next &rarr;</a></li>
+        <li class="next"><a href="/news/2019/07/27/relnotes-4.0.0/" title="Release Notes v4.0.0">Next &rarr;</a></li>
       
       </ul>
     </div>

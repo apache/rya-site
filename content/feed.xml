@@ -3,11 +3,162 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Mar 2018 22:04:25 -0400</pubDate>
-    <lastBuildDate>Wed, 14 Mar 2018 22:04:25 -0400</lastBuildDate>
-    <generator>Jekyll v3.4.5</generator>
+    <link>http://0.0.0.0:4000//</link>
+    <atom:link href="http://0.0.0.0:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Jul 2019 08:44:06 -0500</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 08:44:06 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Release Notes v4.0.0</title>
+        <description>&lt;p&gt;Release Notes v3.2.12&lt;/p&gt;
+
+&lt;p&gt;See the full &lt;a href=&quot;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;amp;version=12341289&quot;&gt;list of issues&lt;/a&gt; resolved in this release.&lt;/p&gt;
+
+&lt;p&gt;Here are the release highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-446&quot;&gt;RYA-446&lt;/a&gt; - RPM for installing Query Manager as a daemon process on CentOS 7.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-448&quot;&gt;RYA-448&lt;/a&gt; - Implement query manager xml configuration marshaling code&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-449&quot;&gt;RYA-449&lt;/a&gt; - Create interfaces for QueryChangeLogSource&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-450&quot;&gt;RYA-450&lt;/a&gt; - Create a KafkaQueryChangeLogSource&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-451&quot;&gt;RYA-451&lt;/a&gt; - Create QueryManager&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-453&quot;&gt;RYA-453&lt;/a&gt; - Implement a Query Manager driver&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-455&quot;&gt;RYA-455&lt;/a&gt; - QueryExecutor should be able to stop all queries of a specific Rya Instance&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-456&quot;&gt;RYA-456&lt;/a&gt; - Implement a Single Node implementation of QueryExecutor&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-458&quot;&gt;RYA-458&lt;/a&gt; - Only be able to configure a single Kafka based QueryChangeLogSource&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-462&quot;&gt;RYA-462&lt;/a&gt; - Update query result topic name for Rya Streams&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-463&quot;&gt;RYA-463&lt;/a&gt; - Add insert flag to StreamsQuery&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-467&quot;&gt;RYA-467&lt;/a&gt; - Rya Streams - QueryChangeLog topic deletes content after 7 days.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-469&quot;&gt;RYA-469&lt;/a&gt; - Rya Streams - Join iterator bug.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-485&quot;&gt;RYA-485&lt;/a&gt; - fix maven-shade-plugin usage&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-488&quot;&gt;RYA-488&lt;/a&gt; - The Geo dependency repositories need to be in a geoindexing profile.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-492&quot;&gt;RYA-492&lt;/a&gt; - Add language support to Literals&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-494&quot;&gt;RYA-494&lt;/a&gt; - Shell insert and query bug.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-495&quot;&gt;RYA-495&lt;/a&gt; - old version numbers in Vagrantfile prevent it from working&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-497&quot;&gt;RYA-497&lt;/a&gt; - Accumulo Rya Kafka Connect Sink - Slow insert rates.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-487&quot;&gt;RYA-487&lt;/a&gt; - Kafka Connect Rya Sink&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-515&quot;&gt;RYA-515&lt;/a&gt; - Upgrade Mongo driver to 3.10.2&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-405&quot;&gt;RYA-405&lt;/a&gt; - Migrate from Sesame to rdf4j libs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-466&quot;&gt;RYA-466&lt;/a&gt; - Rya Streams Client - Stream results to file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-489&quot;&gt;RYA-489&lt;/a&gt; - Create the rya.test.accumulo project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-491&quot;&gt;RYA-491&lt;/a&gt; - Create the rya.test.mongo project.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-269&quot;&gt;RYA-269&lt;/a&gt; - Test AccumuloLoadStatementsFileIT fails: depends on old identifier: “urn:mvm.rya/2012/05#version”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-476&quot;&gt;RYA-476&lt;/a&gt; - DateTimeWithinPeriodTest is sensitive to DST spring forward.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-443&quot;&gt;RYA-443&lt;/a&gt; - Implement a single node query manager&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://issues.apache.org/jira/browse/RYA-486&quot;&gt;RYA-486&lt;/a&gt; - Update master to 4.0.0&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000//news/2019/07/27/relnotes-4.0.0/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2019/07/27/relnotes-4.0.0/</guid>
+        
+        
+        <category>releasenotes</category>
+        
+      </item>
+    
+      <item>
+        <title>Release 4.0.0</title>
+        <description>
+&lt;p&gt;This is Rya’s third Apache release, version 4.0.0.  It is available as a source code download:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip&quot;&gt;Source download from Apache&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Verify:  &lt;a href=&quot;https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.asc&quot;&gt;pgp&lt;/a&gt; &lt;a href=&quot;https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.md5&quot;&gt;md5&lt;/a&gt; &lt;a href=&quot;https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.sha1&quot;&gt;sha1&lt;/a&gt; &lt;a href=&quot;https://www.apache.org/dist/incubator/rya/rya-incubating-4.0.0/rya-project-4.0.0-incubating-source-release.zip.sha512&quot;&gt;sha512&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/news/2019/07/27/relnotes-4.0.0/&quot;&gt;Release notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22&quot;&gt;Central repository for Maven and other dependency managers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
+using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
+&lt;a href=&quot;https://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; or &lt;em&gt;sha1&lt;/em&gt; hash file may be used to check that the
+download has completed okay.&lt;/p&gt;
+
+&lt;p&gt;For fast downloads, current source distributions are hosted on mirror servers;
+older source distributions are in the
+&lt;a href=&quot;http://archive.apache.org/dist/incubator/rya/&quot;&gt;archive&lt;/a&gt;.
+If a download from a mirror fails, retry, and the second download will likely
+succeed.&lt;/p&gt;
+
+&lt;p&gt;For security, hash and signature files are always hosted at
+&lt;a href=&quot;https://www.apache.org/dist/incubator/rya&quot;&gt;Apache&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next steps:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/build-source.md&quot;&gt;Building from Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/quickstart.md&quot;&gt;Quick Start&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/sm-firststeps.md&quot;&gt;Typical First Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-4.0.0/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Jul 2019 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000//news/2019/07/27/release-4.0.0/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2019/07/27/release-4.0.0/</guid>
+        
+        
+        <category>release</category>
+        
+      </item>
     
       <item>
         <title>Release Notes v3.2.12</title>
@@ -42,9 +193,9 @@
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Sun, 04 Mar 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//news/2018/03/04/relnotes-3.2.12/</link>
-        <guid isPermaLink="true">http://localhost:4000//news/2018/03/04/relnotes-3.2.12/</guid>
+        <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000//news/2018/03/04/relnotes-3.2.12/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2018/03/04/relnotes-3.2.12/</guid>
         
         
         <category>releasenotes</category>
@@ -86,9 +237,9 @@ succeed.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.12/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 04 Mar 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000//news/2018/03/04/release-3.2.12/</link>
-        <guid isPermaLink="true">http://localhost:4000//news/2018/03/04/release-3.2.12/</guid>
+        <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000//news/2018/03/04/release-3.2.12/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2018/03/04/release-3.2.12/</guid>
         
         
         <category>release</category>
@@ -149,9 +300,9 @@ succeed.&lt;/p&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 10 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//news/2017/10/10/relnotes-3.2.11/</link>
-        <guid isPermaLink="true">http://localhost:4000//news/2017/10/10/relnotes-3.2.11/</guid>
+        <pubDate>Tue, 10 Oct 2017 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000//news/2017/10/10/relnotes-3.2.11/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2017/10/10/relnotes-3.2.11/</guid>
         
         
         <category>releasenotes</category>
@@ -193,9 +344,9 @@ succeed.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.11/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 10 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//news/2017/10/10/release-3.2.11/</link>
-        <guid isPermaLink="true">http://localhost:4000//news/2017/10/10/release-3.2.11/</guid>
+        <pubDate>Tue, 10 Oct 2017 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000//news/2017/10/10/release-3.2.11/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2017/10/10/release-3.2.11/</guid>
         
         
         <category>release</category>
@@ -237,9 +388,9 @@ succeed.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.10/extras/rya.manual/src/site/markdown/index.md&quot;&gt;Manual – includes documents above&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 28 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//news/2016/10/28/release-3.2.10/</link>
-        <guid isPermaLink="true">http://localhost:4000//news/2016/10/28/release-3.2.10/</guid>
+        <pubDate>Fri, 28 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://0.0.0.0:4000//news/2016/10/28/release-3.2.10/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000//news/2016/10/28/release-3.2.10/</guid>
         
         <category>v3.2.10</category>
         
