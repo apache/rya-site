@@ -3,15 +3,15 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://0.0.0.0:4000//</link>
-    <atom:link href="http://0.0.0.0:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jul 2019 08:44:06 -0500</pubDate>
-    <lastBuildDate>Mon, 29 Jul 2019 08:44:06 -0500</lastBuildDate>
+    <link>http://rya.apache.org//</link>
+    <atom:link href="http://rya.apache.org//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Jul 2019 09:40:51 -0500</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 09:40:51 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Release Notes v4.0.0</title>
-        <description>&lt;p&gt;Release Notes v3.2.12&lt;/p&gt;
+        <description>&lt;p&gt;Release Notes v4.0.0&lt;/p&gt;
 
 &lt;p&gt;See the full &lt;a href=&quot;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;amp;version=12341289&quot;&gt;list of issues&lt;/a&gt; resolved in this release.&lt;/p&gt;
 
@@ -108,8 +108,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 27 Jul 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//news/2019/07/27/relnotes-4.0.0/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2019/07/27/relnotes-4.0.0/</guid>
+        <link>http://rya.apache.org//news/2019/07/27/relnotes-4.0.0/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2019/07/27/relnotes-4.0.0/</guid>
         
         
         <category>releasenotes</category>
@@ -152,8 +152,8 @@ succeed.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 27 Jul 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//news/2019/07/27/release-4.0.0/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2019/07/27/release-4.0.0/</guid>
+        <link>http://rya.apache.org//news/2019/07/27/release-4.0.0/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2019/07/27/release-4.0.0/</guid>
         
         
         <category>release</category>
@@ -194,8 +194,8 @@ succeed.&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000//news/2018/03/04/relnotes-3.2.12/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2018/03/04/relnotes-3.2.12/</guid>
+        <link>http://rya.apache.org//news/2018/03/04/relnotes-3.2.12/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2018/03/04/relnotes-3.2.12/</guid>
         
         
         <category>releasenotes</category>
@@ -238,8 +238,8 @@ succeed.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 04 Mar 2018 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000//news/2018/03/04/release-3.2.12/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2018/03/04/release-3.2.12/</guid>
+        <link>http://rya.apache.org//news/2018/03/04/release-3.2.12/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2018/03/04/release-3.2.12/</guid>
         
         
         <category>release</category>
@@ -301,8 +301,8 @@ succeed.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 10 Oct 2017 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//news/2017/10/10/relnotes-3.2.11/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2017/10/10/relnotes-3.2.11/</guid>
+        <link>http://rya.apache.org//news/2017/10/10/relnotes-3.2.11/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2017/10/10/relnotes-3.2.11/</guid>
         
         
         <category>releasenotes</category>
@@ -345,8 +345,8 @@ succeed.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 10 Oct 2017 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//news/2017/10/10/release-3.2.11/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2017/10/10/release-3.2.11/</guid>
+        <link>http://rya.apache.org//news/2017/10/10/release-3.2.11/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2017/10/10/release-3.2.11/</guid>
         
         
         <category>release</category>
@@ -389,8 +389,8 @@ succeed.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 28 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000//news/2016/10/28/release-3.2.10/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000//news/2016/10/28/release-3.2.10/</guid>
+        <link>http://rya.apache.org//news/2016/10/28/release-3.2.10/</link>
+        <guid isPermaLink="true">http://rya.apache.org//news/2016/10/28/release-3.2.10/</guid>
         
         <category>v3.2.10</category>
         
