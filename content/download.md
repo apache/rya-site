@@ -52,8 +52,8 @@ Release          | Date       | Download | Notes
 {% endcomment %} | {% if post.filename %}{% comment %}
 {% endcomment %} [zip]( {{ p }}/{{ post.filename }}.zip){% comment %}  
 {% endcomment %} [pgp]( {{ d }}/{{ post.filename }}.zip.asc ){% comment %}
-{% endcomment %} [md5]( {{ d }}/{{ post.filename }}.zip.md5 ){% comment %}
-{% endcomment %} [sha1]({{ d }}/{{ post.filename }}.zip.sha1){% comment %}
+{% endcomment %}{% if post.version == "3.2.10" %} [sha1]({{ d }}/{{ post.filename }}.zip.sha1){% comment %}
+{% endcomment %}{% endif %}{% comment %}
 {% endcomment %}{% if post.version != "3.2.10" %} [sha512]({{ d }}/{{ post.filename }}.zip.sha512){% comment %}
 {% endcomment %}{% endif %}{% comment %}
 {% endcomment %}{% endif %}{% comment %}
@@ -63,7 +63,7 @@ Release          | Date       | Download | Notes
 Download a source distribution in <!-- either *tar* or --> *zip* format,
 and [verify](http://www.apache.org/dyn/closer.cgi#verify)
 using the corresponding *pgp* signature (using the committer file in [KEYS](https://www.apache.org/dist/{{ site.data.project.incubator_slash_name }}/KEYS)).
-If you cannot do that, the *md5* or *sha1* hash file may be used to check that the
+If you cannot do that, the *sha1* or *sha512* hash file may be used to check that the
 download has completed okay.
 
 
