@@ -18,4 +18,5 @@ gem 'github-pages'
 gem 'rouge'
 gem 'jekyll-oembed', :require => 'jekyll_oembed'
 gem 'jekyll-liquify'
+gem 'jekyll'
 # End Gemfile
