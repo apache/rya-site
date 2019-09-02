@@ -20,7 +20,7 @@
 - name: Jennifer Brown
   apacheId: jbrown
 #  githubId: 
-  role: Committer
+  role: Committer, PPMC member
   org: Parsons
 
 - name: Sean Busbey 
@@ -37,7 +37,7 @@
 - name: Adina Crainiceanu
   apacheId: adina
   githubId: adinancr
-  role: Committer
+  role: Committer, PPMC member
   org: US Naval Academy
 
 - name: Jeff Dash
@@ -65,47 +65,65 @@
   org:
   role: Contributor
 
+- name: Susan H&auml;rtig
+  apacheId: 
+  githubId: 
+  org: Semantic Web Company
+  role: Contributor
+
 - name: Jesse Hatfield
   apacheId:
   githubId: jessehatfield
   org:
   role: Contributor
 
+- name: Jakobitsch J&uuml;rgen
+  apacheId: 
+  githubId: jj-semantic-web-com
+  org: Semantic Web Company
+  role: Contributor
+
 - name: David Lotts
   apacheId: dlotts
   githubId: dlotts
   org: Parsons
-  role: Commiter
+  role: Commiter, PPMC member
 
 - name: Caleb Meier
   apacheId: caleb
   githubId: meiercaleb
   org: Parsons
-  role: Commiter
+  role: Commiter, PPMC member
 
 - name: Aaron Mihalik
   apacheId: mihalik
   githubId: amihalik
   org: Parsons
-  role: Committer
+  role: Committer, PPMC member
 
 - name: Roshan Punnoose
   apacheId: roshanp
   githubId: roshanp
   org: 
-  role: Committer
+  role: Committer, PPMC member
 
 - name: David Rapp
   apacheId: dnrapp
   githubId: dnrapp
   org:
-  role: Committer
+  role: Committer, PPMC member
 
 - name: Billie Rinaldi
   apacheId: billie
   githubId: 
   org:
   role: Mentor
+
+- name: Guilherme Rodrigues
+  apacheId: 
+  githubId: Grave
+  org: Semantic Web Company
+  role: Contributor
 
 - name: Andrew Smith
   apacheId:
@@ -117,19 +135,19 @@
   apacheId: pujav65
   githubId: pujav65
   org: Parsons
-  role: Committer
+  role: Committer, PPMC member
 
 - name: Seetharam Venkatesh
   apacheId: venkatesh
   githubId: 
   org: 
-  role: Mentor
+  role: Former Mentor
 
 - name: Steve Wagner
   apacheId: swagner
   githubId: steverwagner
   org:
-  role: Committer
+  role: Committer, PPMC member
 
 - name: Eric White
   apacheId:
@@ -153,7 +171,7 @@
   apacheId: edwardyoon
 #  githubId: 
   org: 
-  role: Mentor
+  role: Former Mentor
 
 
 # End contributors.yml
