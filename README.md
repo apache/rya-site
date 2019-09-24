@@ -9,7 +9,7 @@ This project is processed by Jekyll and committed to the asf-branch.
 
 To make changes to the website:
 
-1. Git clone git://git.apache.org/incubator-rya-site.git branch master
+1. Git clone git://git.apache.org/rya-site.git branch master
 2. Created a new branch.        
 
     ``git checkout -b your_new_branch_name_here``
@@ -31,7 +31,7 @@ To make changes to the website:
 10. When you are done making changes:
 11. Move the content/target folder out of the way, you will commit this separately.
 12. Commit changes, add a remote to your own public git repo, and push to it with --set-upstream.
-13. Create a pull request to the repo apache/incubator-rya-site branch master.
+13. Create a pull request to the repo apache/rya-site branch master.
 14. Now for the deployable HTML that you moved above:
 15. In the same git folder, 
 
@@ -59,13 +59,13 @@ Note: the recursive remove of all the content is necessary to discover files del
 
 1. Review the setup here:  https://pages.github.com/  using "project-site"
 2. It doesn't mention it in the quick start above, but it will also publish a site from a branch named "gh-pages" which is important since master is already used for another purpose.
-3. Start with your branch of project "incubator-rya-site" as pushed to your remote, that is based on the asf-site branch.
+3. Start with your branch of project "rya-site" as pushed to your remote, that is based on the asf-site branch.
 4. Create and checkout a new branch named "gh-pages".  This will not be used in a pull request.
 
     ``git checkout -b gh-pages``
     
 5. Move the contents of the "content" folder to the root of the project.
-6. Modify each HTML page prepending to all references (href= and src=) to the site with "/incubator-rya-site" .  Ignore references beginning http.
+6. Modify each HTML page prepending to all references (href= and src=) to the site with "/rya-site" .  Ignore references beginning http.
 
 For example:
 
@@ -75,25 +75,25 @@ For example:
         
     After:
     
-        ``<link href="/incubator-rya-site/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">``
+        ``<link href="/rya-site/assets/themes/apache/bootstrap/css/bootstrap.css" rel="stylesheet">``
 
 
 This command should do the replacement:
 
-    ``find . -name \*.html -exec sed -ri 's/=\"\//=\"\/incubator-rya-site\//g' {} \;``
+    ``find . -name \*.html -exec sed -ri 's/=\"\//=\"\/rya-site\//g' {} \;``
 
 
-7. Commit changes and push to your public github project named incubator-rya-site.
+7. Commit changes and push to your public github project named rya-site.
 
     ``git commit -a -m "New stuff"``
     
     ``git push  git push --set-upstream yourGitHub gh-pages``
     
-8. Login to your github account and to the project incubator-rya-site forked from apache/incubator-rya-site, and click on the Settings tab.  Scroll down to GitHub Pages  and choose source=gh-pages branch.  Save.
+8. Login to your github account and to the project rya-site forked from apache/rya-site, and click on the Settings tab.  Scroll down to GitHub Pages  and choose source=gh-pages branch.  Save.
     
 9. Browse to the site:
 
-    https://yourGitHubID.github.io/incubator-rya-site
+    https://yourGitHubID.github.io/rya-site
     
 replacing yourGitHubID with your GitHub account ID.
 

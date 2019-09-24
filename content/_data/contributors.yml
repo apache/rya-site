@@ -20,7 +20,7 @@
 - name: Jennifer Brown
   apacheId: jbrown
 #  githubId: 
-  role: Committer, PPMC member
+  role: Committer, PMC member
   org: Parsons
 
 - name: Sean Busbey 
@@ -37,7 +37,7 @@
 - name: Adina Crainiceanu
   apacheId: adina
   githubId: adinancr
-  role: Committer, PPMC member
+  role: Committer, PMC Chair
   org: US Naval Academy
 
 - name: Jeff Dash
@@ -50,7 +50,7 @@
   apacheId: elserj
   githubId: joshelser
   org: 
-  role: Mentor
+  role: PMC member
   homepage: 
 
 - name: Adam Fuchs
@@ -87,37 +87,37 @@
   apacheId: dlotts
   githubId: dlotts
   org: Parsons
-  role: Commiter, PPMC member
+  role: Commiter, PMC member
 
 - name: Caleb Meier
   apacheId: caleb
   githubId: meiercaleb
   org: Parsons
-  role: Commiter, PPMC member
+  role: Commiter, PMC member
 
 - name: Aaron Mihalik
   apacheId: mihalik
   githubId: amihalik
   org: Parsons
-  role: Committer, PPMC member
+  role: Committer, PMC member
 
 - name: Roshan Punnoose
   apacheId: roshanp
   githubId: roshanp
   org: 
-  role: Committer, PPMC member
+  role: Committer, PMC member
 
 - name: David Rapp
   apacheId: dnrapp
   githubId: dnrapp
   org:
-  role: Committer, PPMC member
+  role: Committer, PMC member
 
 - name: Billie Rinaldi
   apacheId: billie
   githubId: 
   org:
-  role: Mentor
+  role: PMC member
 
 - name: Guilherme Rodrigues
   apacheId: 
@@ -135,7 +135,7 @@
   apacheId: pujav65
   githubId: pujav65
   org: Parsons
-  role: Committer, PPMC member
+  role: Committer, PMC member
 
 - name: Seetharam Venkatesh
   apacheId: venkatesh
@@ -147,7 +147,7 @@
   apacheId: swagner
   githubId: steverwagner
   org:
-  role: Committer, PPMC member
+  role: Committer, PMC member
 
 - name: Eric White
   apacheId:
