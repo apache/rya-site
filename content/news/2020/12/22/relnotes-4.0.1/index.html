@@ -4,8 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Release 3.2.11</title>
-    <meta name="description" content="details of the second release of Rya (Incubating)">
+    <title>Release Notes v4.0.1</title>
+    <meta name="description" content="Details of what changed in v4.0.1 of Rya">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -80,47 +80,51 @@
       
 
 <div class="page-header">
-  <h1>Release 3.2.11 </h1>
+  <h1>Release Notes v4.0.1 </h1>
 </div>
 
 <div class="row-fluid post-full">
   <div class="span12">
     <div class="date">
-      <span>10 October 2017</span>
+      <span>22 December 2020</span>
     </div>
     <div class="content">
-      
-<p>This is Rya’s second Apache release, version 3.2.11.  It is available as a source code download:</p>
+      <p>Release Notes v4.0.1</p>
+
+<p>See the full <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12319020&amp;version=12349433">list of issues</a> resolved in this release.</p>
+
+<p>Here are the release highlights:</p>
 
 <ul>
-  <li><a href="https://www.apache.org/dyn/closer.lua/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip">Source download from Apache</a></li>
-  <li>Verify:  <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.asc">pgp</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.md5">md5</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.sha1">sha1</a> <a href="https://www.apache.org/dist/incubator/rya/rya-incubating-3.2.11/rya-project-3.2.11-incubating-source-release.zip.sha512">sha512</a></li>
-  <li><a href="/news/2017/10/10/relnotes-3.2.11/">Release notes</a></li>
-  <li><a href="https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.apache.rya%22">Central repository for Maven and other dependency managers</a></li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-384">RYA-384</a> - Dependency updates and fixes for vagrant example VM
+  – pull requests #309 by furkanozbay #318 by DLotts</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-518">RYA-518</a> Don’t switch on null value, instead switch on valid type, use Map.getOrDefault()
+  – pull request #311 by rplst8</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-520">RYA-520</a> Update year in NOTICE
+  – pull requests #319 by wollefitz</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-522">RYA-522</a> - Prepare exit from Incubator to TLP</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-526">RYA-526</a> -  graduation clean-up:removed DISCLAIMER file, removed incubating name,…
+  – pull request #321 by adinancr</p>
+  </li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/RYA-529">RYA-529</a> - fixed boundless and locationtech repos in main pom in Rya v4
+  – pull requests #314 #313 by DLotts</p>
+  </li>
+  <li>
+    <p>SECURITY - Use HTTPS to resolve dependencies in Maven Build
+  – pull request #312 by JLLeitschuh</p>
+  </li>
 </ul>
 
-<p><a href="https://www.apache.org/dyn/closer.cgi#verify">Verify</a>
-using the corresponding <em>pgp</em> signature (using the committer file in
-<a href="https://www.apache.org/dist/incubator/rya/KEYS">KEYS</a>).
-If you cannot do that, the <em>md5</em> or <em>sha1</em> hash file may be used to check that the
-download has completed okay.</p>
-
-<p>For fast downloads, current source distributions are hosted on mirror servers;
-older source distributions are in the
-<a href="https://archive.apache.org/dist/incubator/rya/">archive</a>.
-If a download from a mirror fails, retry, and the second download will likely
-succeed.</p>
-
-<p>For security, hash and signature files are always hosted at
-<a href="https://www.apache.org/dist/incubator/rya">Apache</a>.</p>
-
-<p>Next steps:</p>
-<ul>
-  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.11/extras/rya.manual/src/site/markdown/build-source.md">Building from Source</a></li>
-  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.11/extras/rya.manual/src/site/markdown/quickstart.md">Quick Start</a></li>
-  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.11/extras/rya.manual/src/site/markdown/sm-firststeps.md">Typical First Steps</a></li>
-  <li><a href="https://github.com/apache/incubator-rya/blob/rel/rya-incubating-3.2.11/extras/rya.manual/src/site/markdown/index.md">Manual – includes documents above</a></li>
-</ul>
 
     </div>
 
@@ -133,8 +137,8 @@ succeed.</p>
 
   
      
-    	<li><a href="#release-ref">
-    		release <span>5</span>
+    	<li><a href="#releasenotes-ref">
+    		releasenotes <span>4</span>
     	</a></li>
     
   
@@ -149,11 +153,11 @@ succeed.</p>
     <div class="pagination">
       <ul>
       
-        <li class="prev"><a href="/news/2016/10/28/release-3.2.10/" title="First Release">&larr; Previous</a></li>
+        <li class="prev"><a href="/news/2020/12/22/release-4.0.1/" title="Release 4.0.1">&larr; Previous</a></li>
       
         <li><a href="">Archive</a></li>
       
-        <li class="next"><a href="/news/2017/10/10/relnotes-3.2.11/" title="Release Notes v3.2.11">Next &rarr;</a></li>
+        <li class="next disabled"><a>Next &rarr;</a>
       
       </ul>
     </div>
