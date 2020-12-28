@@ -43,7 +43,7 @@ limitations under the License.
 
 ### {{ site.data.project.short_name }} Manual
 
-A copy of the {{ site.data.project.short_name }} Manual is located [here](https://github.com/apache/incubator-rya/blob/master/extras/rya.manual/src/site/markdown/index.md) 
+[The latest {{ site.data.project.short_name }} Manual](https://github.com/apache/rya/blob/master/extras/rya.manual/src/site/markdown/index.md) 
 
 
 

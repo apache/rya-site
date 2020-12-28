@@ -37,10 +37,10 @@ limitations under the License.
 
     {% for member in site.data.contributors %}
         <tr>
-        <td>{% if member.githubId %}<a href="http://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}http://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a>{% endif %}</td>
+        <td>{% if member.githubId %}<a href="https://github.com/{{ member.githubId }}"><img width="64" src="{% unless c.avatar %}https://github.com/{{ member.githubId }}.png{% else %}{{ member.avatar }}{% endunless %}"></a>{% endif %}</td>
         <td>{{member.name}}</td>
         <td>{{member.apacheId}}</td>
-        <td><a href="http://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
+        <td><a href="https://github.com/{{ member.githubId }}">{{ member.githubId }}</a></td>
         <td>{{member.role}}</td>
         <td>{{member.org}}</td>
         </tr>

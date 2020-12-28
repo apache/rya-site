@@ -17,7 +17,7 @@ markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: ""
 
-repository: https://github.com/apache/incubator-rya-site.git
+repository: https://github.com/apache/rya-site.git
 destination: target
 exclude: [README.md,Gemfile*,vendor]
 keep_files: [".git", ".svn", "apidocs"]
@@ -25,7 +25,7 @@ keep_files: [".git", ".svn", "apidocs"]
 # The base path where the website is deployed
 baseurl: /
 
-url: http://rya.apache.org
+url: https://rya.apache.org
 
 plugins:
  - jekyll-liquify
