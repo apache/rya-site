@@ -4,6 +4,14 @@
 # '~' is empty value in yml.
 # If this branch is asf-staging, it will be published to http://rya.staged.apache.org/ 
 
+
+github:
+  description: "Apache Rya Website"
+  homepage: "https://rya.apache.org/"
+  labels:
+    - rya
+    - website
+ 
 staging:
   profile: ~
   whoami:  asf-staging
