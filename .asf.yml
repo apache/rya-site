@@ -1,0 +1,14 @@
+# Staging and publishing profile for rya-site.git:
+# 'whoami' ensures the section is only active if the value matches the current branch.
+# 'profile' gets appended onto the project name in the url:  rya-profile.staged.apache.org
+# '~' is empty value in yml.
+# If this branch is asf-staging, it will be published to http://rya.staged.apache.org/ 
+
+staging:
+  profile: ~
+  whoami:  asf-staging
+ 
+# If this branch is asf-site, it will be published to http://rya.apache.org/ 
+ 
+publish:
+  whoami:  asf-site
