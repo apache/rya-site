@@ -71,7 +71,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
 using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
-&lt;a href=&quot;https://www.apache.org/dist/Apache Rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+&lt;a href=&quot;https://www.apache.org/dist/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
 If you cannot do that, the &lt;em&gt;sha512&lt;/em&gt; hash file may be used to check that the
 download has completed okay.&lt;/p&gt;
 
@@ -222,7 +222,7 @@ succeed.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
 using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
-&lt;a href=&quot;https://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+&lt;a href=&quot;https://www.apache.org/dist/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
 If you cannot do that, the &lt;em&gt;sha512&lt;/em&gt; hash file may be used to check that the
 download has completed okay.&lt;/p&gt;
 
@@ -308,7 +308,7 @@ succeed.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
 using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
-&lt;a href=&quot;https://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+&lt;a href=&quot;https://www.apache.org/dist/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
 If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; or &lt;em&gt;sha1&lt;/em&gt; hash file may be used to check that the
 download has completed okay.&lt;/p&gt;
 
@@ -415,7 +415,7 @@ succeed.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
 using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
-&lt;a href=&quot;https://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+&lt;a href=&quot;https://www.apache.org/dist/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
 If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; or &lt;em&gt;sha1&lt;/em&gt; hash file may be used to check that the
 download has completed okay.&lt;/p&gt;
 
@@ -459,7 +459,7 @@ succeed.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.apache.org/dyn/closer.cgi#verify&quot;&gt;Verify&lt;/a&gt;
 using the corresponding &lt;em&gt;pgp&lt;/em&gt; signature (using the committer file in
-&lt;a href=&quot;https://www.apache.org/dist/incubator/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
+&lt;a href=&quot;https://www.apache.org/dist/rya/KEYS&quot;&gt;KEYS&lt;/a&gt;).
 If you cannot do that, the &lt;em&gt;md5&lt;/em&gt; or &lt;em&gt;sha1&lt;/em&gt; hash file may be used to check that the
 download has completed okay.&lt;/p&gt;
 
