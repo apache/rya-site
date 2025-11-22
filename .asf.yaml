@@ -11,6 +11,7 @@ github:
   labels:
     - rya
     - website
+    - jekyll
  
 staging:
   profile: ~
